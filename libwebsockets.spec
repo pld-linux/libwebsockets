@@ -5,15 +5,15 @@
 Summary:	Lightweight C library for Websockets
 Summary(pl.UTF-8):	Lekka biblioteka C implementująca Websockets
 Name:		libwebsockets
-Version:	4.3.2
+Version:	4.3.3
 Release:	1
 License:	MIT
 Group:		Libraries
 #SourceDownload: https://github.com/warmcat/libwebsockets/tags
 Source0:	https://github.com/warmcat/libwebsockets/archive/v%{version}/%{name}-%{version}.tar.gz
-# Source0-md5:	a73519f68c0e617e6bc7f8704903a9fe
+# Source0-md5:	c078b08b712316f6302f54a9d05273ae
 Patch0:		no-git.patch
-URL:		http://libwebsockets.org
+URL:		https://libwebsockets.org/
 BuildRequires:	cmake >= 2.8.12
 BuildRequires:	libcap-devel
 BuildRequires:	libev-devel
