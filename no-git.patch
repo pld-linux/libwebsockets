@@ -1,5 +1,5 @@
---- libwebsockets-4.3.3/CMakeLists.txt.orig	2023-11-20 07:27:02.000000000 +0100
-+++ libwebsockets-4.3.3/CMakeLists.txt	2024-09-19 19:00:43.037975740 +0200
+--- libwebsockets-4.3.5/CMakeLists.txt.orig	2025-02-28 07:41:45.000000000 +0100
++++ libwebsockets-4.3.5/CMakeLists.txt	2025-05-18 15:39:15.494875143 +0200
 @@ -370,37 +370,6 @@ endmacro()
  # Try to find the current Git hash
  #
@@ -40,7 +40,7 @@
  endif()
 @@ -412,7 +381,7 @@ set(CPACK_PACKAGE_VERSION_MAJOR "4")
  set(CPACK_PACKAGE_VERSION_MINOR "3")
- set(CPACK_PACKAGE_VERSION_PATCH_NUMBER "3")
+ set(CPACK_PACKAGE_VERSION_PATCH_NUMBER "5")
  
 -set(CPACK_PACKAGE_VERSION_PATCH "${CPACK_PACKAGE_VERSION_PATCH_NUMBER}-${LWS_BUILD_HASH}")
 +set(CPACK_PACKAGE_VERSION_PATCH "${CPACK_PACKAGE_VERSION_PATCH_NUMBER}")
