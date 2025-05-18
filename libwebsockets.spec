@@ -47,7 +47,7 @@ opertych na libwebsockets.
 
 %prep
 %setup -q
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 mkdir -p build
